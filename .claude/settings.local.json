@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -c \"import gui; print\\('gui import OK'\\)\")",
+      "Bash(python test_end_to_end.py)",
+      "Bash(python fft_module.py)",
+      "Bash(python -c \"from gui import SpectrumAnalyzer; print\\('GUI import OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from gui import SpectrumAnalyzer; print\\('GUI import OK after fix'\\)\")",
+      "Bash(ffmpeg -version)",
+      "Bash(python -c \"from gui import SpectrumAnalyzer; print\\('GUI float64 mode OK'\\)\")",
+      "Bash(python -c \"from gui import SpectrumAnalyzer; print\\('GUI float32 mode OK'\\)\")",
+      "Bash(python *)",
+      "Bash(iconv -f GBK -t UTF-8 D:/Desktop/demo/课设要求原本.txt)",
+      "Bash(\"d:/Desktop/demo/.venv/Scripts/python.exe\" -m pip list)",
+      "Bash(\"d:/Desktop/demo/.venv/Scripts/pip.exe\" list *)",
+      "Bash(\"d:/Desktop/demo/env/Scripts/pip.exe\" list *)",
+      "Bash(\"d:/Desktop/demo/env/Scripts/python.exe\" -m pip list)",
+      "Bash(\"d:/Desktop/demo/env/Scripts/python.exe\" -c \"import pkg_resources; [print\\(f'{d.project_name}=={d.version}'\\) for d in pkg_resources.working_set]\")"
+    ]
+  }
+}
